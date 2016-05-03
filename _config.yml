@@ -1,0 +1,39 @@
+# Site settings
+title: MaiaDB
+email: manismistry@live.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Web-designer, programmer, animator.
+baseurl: "/MaiaDB/" # the subpath of your site, e.g. /blog/
+url: "http://mnmistry.com" # the base hostname & protocol for your site
+twitter_username: Talon_HQ
+github_username:  Net-Slayer
+exclude: [
+.git,
+.gitignore,
+.DS_Store,
+CNAME,
+svg,
+scss,
+pre_sass,
+compat,
+.sass-cache,
+package.json,
+Gruntfile.js,
+node_modules,
+readme.md,
+templates,
+Source,
+htmtmp,
+js/global,
+js/total,
+js/libs,
+images/global,
+release/css/global,
+release/css/total,
+gemfile
+Gemfile.lock
+*.src.html
+]
+
+# Build settings
+markdown: kramdown
