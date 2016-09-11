@@ -4,8 +4,9 @@ email: manismistry@live.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Web-designer, programmer, animator.
 baseurl: "/MaiaDB/" # the subpath of your site, e.g. /blog/
-url: "http://mnmistry.com" # the base hostname & protocol for your site
-twitter_username: Talon_HQ
+url: "https://maiadb.com" # the base hostname & protocol for your site
+enforce_ssl: www.maiadb.com
+twitter_username: NetSlayerUK
 github_username:  Net-Slayer
 exclude: [
 .git,
